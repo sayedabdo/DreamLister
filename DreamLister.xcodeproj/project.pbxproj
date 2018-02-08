@@ -15,6 +15,15 @@
 		161D6F87202CDB7300FB3126 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F7F202CDB7300FB3126 /* Store+CoreDataProperties.swift */; };
 		161D6F88202CDB7300FB3126 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F80202CDB7300FB3126 /* Item+CoreDataClass.swift */; };
 		161D6F89202CDB7300FB3126 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F81202CDB7300FB3126 /* Item+CoreDataProperties.swift */; };
+		161D6F8B202CE2CF00FB3126 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F8A202CE2CF00FB3126 /* ItemDetailsVC.swift */; };
+		161D6F8D202CE33200FB3126 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F8C202CE33200FB3126 /* ItemCell.swift */; };
+		161D6F91202CEF3B00FB3126 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F90202CEF3B00FB3126 /* MaterialView.swift */; };
+		161D6F93202CF2FC00FB3126 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F92202CF2FC00FB3126 /* CustomTextField.swift */; };
+		161D6F94202CF2FC00FB3126 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F92202CF2FC00FB3126 /* CustomTextField.swift */; };
+		161D6F95202CF2FC00FB3126 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D6F92202CF2FC00FB3126 /* CustomTextField.swift */; };
+		161D6F97202CF30700FB3126 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 161D6F96202CF30700FB3126 /* tesla.jpg */; };
+		161D6F98202CF30700FB3126 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 161D6F96202CF30700FB3126 /* tesla.jpg */; };
+		161D6F99202CF30700FB3126 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 161D6F96202CF30700FB3126 /* tesla.jpg */; };
 		1627425E202BD32A0079F704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627425D202BD32A0079F704 /* AppDelegate.swift */; };
 		16274260202BD32A0079F704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627425F202BD32A0079F704 /* ViewController.swift */; };
 		16274263202BD32A0079F704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16274261202BD32A0079F704 /* Main.storyboard */; };
@@ -51,6 +60,11 @@
 		161D6F7F202CDB7300FB3126 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		161D6F80202CDB7300FB3126 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		161D6F81202CDB7300FB3126 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		161D6F8A202CE2CF00FB3126 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		161D6F8C202CE33200FB3126 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		161D6F90202CEF3B00FB3126 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		161D6F92202CF2FC00FB3126 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		161D6F96202CF30700FB3126 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		1627425A202BD32A0079F704 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1627425D202BD32A0079F704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1627425F202BD32A0079F704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +128,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		161D6F8E202CEB8300FB3126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				161D6F92202CF2FC00FB3126 /* CustomTextField.swift */,
+				161D6F8C202CE33200FB3126 /* ItemCell.swift */,
+				161D6F90202CEF3B00FB3126 /* MaterialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		161D6F8F202CEBB900FB3126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				161D6F8A202CE2CF00FB3126 /* ItemDetailsVC.swift */,
+				1627425F202BD32A0079F704 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		16274251202BD32A0079F704 = {
 			isa = PBXGroup;
 			children = (
@@ -137,15 +170,17 @@
 		1627425C202BD32A0079F704 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				161D6F8F202CEBB900FB3126 /* Controller */,
+				161D6F8E202CEB8300FB3126 /* View */,
 				161D6F79202CDB5700FB3126 /* Model */,
 				161D6F78202CDB3F00FB3126 /* Generated */,
 				1627425D202BD32A0079F704 /* AppDelegate.swift */,
-				1627425F202BD32A0079F704 /* ViewController.swift */,
 				16274261202BD32A0079F704 /* Main.storyboard */,
 				16274267202BD32A0079F704 /* Assets.xcassets */,
 				16274269202BD32A0079F704 /* LaunchScreen.storyboard */,
 				1627426C202BD32A0079F704 /* Info.plist */,
 				16274264202BD32A0079F704 /* DreamLister.xcdatamodeld */,
+				161D6F96202CF30700FB3126 /* tesla.jpg */,
 			);
 			path = DreamLister;
 			sourceTree = "<group>";
@@ -276,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1627426B202BD32A0079F704 /* LaunchScreen.storyboard in Resources */,
+				161D6F97202CF30700FB3126 /* tesla.jpg in Resources */,
 				16274268202BD32A0079F704 /* Assets.xcassets in Resources */,
 				16274263202BD32A0079F704 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161D6F98202CF30700FB3126 /* tesla.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161D6F99202CF30700FB3126 /* tesla.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +340,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161D6F8D202CE33200FB3126 /* ItemCell.swift in Sources */,
+				161D6F8B202CE2CF00FB3126 /* ItemDetailsVC.swift in Sources */,
 				161D6F88202CDB7300FB3126 /* Item+CoreDataClass.swift in Sources */,
 				161D6F84202CDB7300FB3126 /* ItemType+CoreDataClass.swift in Sources */,
 				16274260202BD32A0079F704 /* ViewController.swift in Sources */,
+				161D6F91202CEF3B00FB3126 /* MaterialView.swift in Sources */,
 				161D6F83202CDB7300FB3126 /* Image+CoreDataProperties.swift in Sources */,
 				1627425E202BD32A0079F704 /* AppDelegate.swift in Sources */,
 				161D6F87202CDB7300FB3126 /* Store+CoreDataProperties.swift in Sources */,
@@ -313,6 +354,7 @@
 				161D6F85202CDB7300FB3126 /* ItemType+CoreDataProperties.swift in Sources */,
 				161D6F89202CDB7300FB3126 /* Item+CoreDataProperties.swift in Sources */,
 				161D6F82202CDB7300FB3126 /* Image+CoreDataClass.swift in Sources */,
+				161D6F93202CF2FC00FB3126 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161D6F94202CF2FC00FB3126 /* CustomTextField.swift in Sources */,
 				16274276202BD32A0079F704 /* DreamListerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161D6F95202CF2FC00FB3126 /* CustomTextField.swift in Sources */,
 				16274281202BD32B0079F704 /* DreamListerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
