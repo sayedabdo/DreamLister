@@ -110,7 +110,7 @@
             </objects>
             <point key="canvasLocation" x="553" y="140"/>
         </scene>
-        <!--Item DetailsVC-->
+        <!--Add/Edit-->
         <scene sceneID="fU1-dl-1cR">
             <objects>
                 <viewController id="sEa-rt-14I" customClass="ItemDetailsVC" customModule="DreamLister" customModuleProvider="target" sceneMemberID="viewController">
@@ -166,10 +166,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhK-rl-390">
+                                <rect key="frame" x="58" y="112" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="addImage:" destination="sEa-rt-14I" eventType="touchUpInside" id="Ela-PA-RLR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ghH-ix-eYs"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Add/Edit" id="Fhq-vy-RHe">
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="H2O-af-zwD"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="PriceField" destination="56x-Cs-h4M" id="b93-ds-jgH"/>
                         <outlet property="detailsField" destination="A6g-JB-nVW" id="sZh-jo-qIO"/>
