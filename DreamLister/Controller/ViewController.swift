@@ -130,8 +130,10 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
     
     @IBAction func segmentChange(_ sender: AnyObject) {
         
-        attemptFetch()
-        tableView.reloadData()
+        
+       // attemptFetch()
+        
+        //tableView.reloadData()
         
     }
     
