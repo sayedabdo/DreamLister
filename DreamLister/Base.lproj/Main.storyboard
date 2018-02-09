@@ -97,13 +97,14 @@
                     <navigationItem key="navigationItem" title="Dream Lister" id="HNt-44-pmb">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="PJp-RY-AwG">
                             <connections>
-                                <segue destination="sEa-rt-14I" kind="show" id="lnp-ny-BTo"/>
+                                <segue destination="sEa-rt-14I" kind="show" identifier="ItemDetailsVCNew" id="29t-gH-4aK"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="segment" destination="FQX-uQ-NTr" id="ZFL-QC-hz0"/>
                         <outlet property="tableView" destination="RHh-GA-Dcn" id="dVb-80-FbO"/>
+                        <segue destination="sEa-rt-14I" kind="show" identifier="ItemDetailsVC" id="yDI-im-0k1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -212,4 +213,7 @@
             <point key="canvasLocation" x="-249" y="166"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="29t-gH-4aK"/>
+    </inferredMetricsTieBreakers>
 </document>

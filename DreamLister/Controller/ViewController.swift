@@ -26,6 +26,7 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         tableView.dataSource = self
         
         //generateTestData()
+        
         attemptFetch()
         
     }
@@ -131,9 +132,9 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
     @IBAction func segmentChange(_ sender: AnyObject) {
         
         
-       // attemptFetch()
+       attemptFetch()
         
-        //tableView.reloadData()
+       tableView.reloadData()
         
     }
     
